@@ -18,8 +18,10 @@ body{
 
 .main_box{
   border: 2px solid #ffd24a;
-  margin: 10px 0px 0px 60px;
+  margin: 10px 10px 30px 80px;
   background-color: white;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px #555454;
 }
 
 #page_content{
@@ -128,18 +130,19 @@ textarea{
   font-size: inherit;
   padding: 10px 10px 10px 10px;
   width: 98%;
-}
-
-label[for="why_love"]{
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 input[type="submit"]{
   background-color: #1fabe5;
   color: white;
   font: inherit;
+  text-align: center;
   text-transform: uppercase;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 20px 15px 20px;
   border-radius: 6px;
-  margin-bottom: 30px;
+  width: auto;
+  height: auto;
+  border: none;
 }
