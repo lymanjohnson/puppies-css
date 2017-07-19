@@ -124,5 +124,22 @@ label[for*=name]{
 }
 
 textarea{
-  
+  border: 1px solid #1fabe5;
+  font-size: inherit;
+  padding: 10px 10px 10px 10px;
+  width: 98%;
+}
+
+label[for="why_love"]{
+  margin-bottom: 20px;
+}
+
+input[type="submit"]{
+  background-color: #1fabe5;
+  color: white;
+  font: inherit;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+  margin-bottom: 30px;
 }
