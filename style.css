@@ -110,10 +110,19 @@ form{
   margin-bottom: 30px;
 }
 
+label[for*=name]{
+  padding-left: 25px;
+}
+
+ input{
+  height: 35px;
+  width: 30%;
+}
+
 .breed{
   margin-bottom: 30px;
 }
 
-label[for*=name]{
-  padding-left: 25px;
+textarea{
+  
 }
