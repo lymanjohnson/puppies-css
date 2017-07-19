@@ -94,3 +94,26 @@ thead{
 table img{
   height: 25%;
 }
+
+form{
+  border-radius: 4px;
+  background-color: #eee;
+  padding: 20px 20px 20px 20px;
+  font-weight: bold;
+}
+
+.name{
+  background-color: #ff8523;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.breed{
+  margin-bottom: 30px;
+}
+
+label[for*=name]{
+  padding-left: 25px;
+}
