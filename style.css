@@ -11,11 +11,86 @@ colors:
     dark blue - #046c97
 */
 
-html {
-	margin: 0;
-	padding: 0;
-	}
+body{
+  background-image: url("./img/bg.jpg");
+  background-repeat: repeat;
+}
+
+.main_box{
+  border: 2px solid #ffd24a;
+  margin: 10px 0px 0px 60px;
+  background-color: white;
+}
+
+#page_content{
+  padding: 20px 20px 20px 20px;
+}
+
+section a:link {
+  color:#1fabe5;
+}
+
+section a:visited{
+  color:#1fabe5;
+}
+
+header{
+  background-color: #ff8523;
+  padding: 20px 0px 40px 30px;
+}
+
+header img{
+  margin-bottom: 20px;
+}
+
+nav a{
+  border: 1px solid white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
 
 body {
-	font: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
 	}
+
+h2{
+  color: #1fabe5;
+}
+
+h3{
+  color: #1fabe5;
+}
+
+li{
+  font-weight: bolder;
+}
+
+section{
+  padding-bottom: 40px;
+  border-bottom: 4px solid #dddddd;
+}
+
+table, thead, td{
+  border-collapse: collapse;
+  border: 1px solid #046c97;
+  padding: 10px 10px 10px 10px;
+
+}
+
+table{
+  width: 100%;
+}
+
+thead{
+  background: #1fabe5;
+  color: white;
+
+}
+
+table img{
+  height: 25%;
+}
