@@ -2,8 +2,6 @@
 font info:
     family - Helvetica, Arial, sans-serif
     line-height - 1.6
-
-
 colors:
     light gray - ##eee
     gray - #dddddd
@@ -12,3 +10,12 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	font: Helvetica, Arial, sans-serif;
+	}
